@@ -1,0 +1,11 @@
+enum API_STATUS {
+    FULLFILLED,
+    PENDDING="PENDDING",
+    
+    REJECTED="REJECTED"
+}
+
+let a= API_STATUS.FULLFILLED;
+
+console.log(a);
+
